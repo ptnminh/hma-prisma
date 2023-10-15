@@ -13,6 +13,9 @@
     "migrate": "dotenv -- npx prisma migrate dev",
     "deploy": "dotenv -- npx prisma migrate deploy"
   },
+  "repository": {
+    "url": "https://github.com/ptnminh/hma-prisma.git"
+  },
   "author": "ptnminh@ <ptnminh.ltdn@gmail.com>",
   "license": "ISC",
   "dependencies": {
