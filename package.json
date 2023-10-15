@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This is a shared schema for hma project",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@hma/prisma"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "introspect": "dotenv -- prisma introspect",
