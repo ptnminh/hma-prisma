@@ -1,0 +1,23 @@
+{
+  "name": "@hma/prisma",
+  "version": "1.0.0",
+  "description": "This is a shared schema for hma project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "introspect": "dotenv -- prisma introspect",
+    "generate": "dotenv -- npx prisma generate",
+    "migrate": "dotenv -- npx prisma migrate dev",
+    "deploy": "dotenv -- npx prisma migrate deploy"
+  },
+  "author": "ptnminh@ <ptnminh.ltdn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.4.2",
+    "@types/node": "^20.8.6",
+    "dotenv-cli": "^7.3.0",
+    "prisma": "^5.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
